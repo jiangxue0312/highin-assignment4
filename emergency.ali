@@ -1,0 +1,73 @@
+V "GNAT Lib v2015"
+A -O2
+A -mmacosx-version-min=10.11.3
+A -gnatA
+A -g
+A -mtune=core2
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U emergency%b		emergency.adb		8241d3e8 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W measures%s		measures.ads		measures.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.img_real%s	s-imgrea.adb		s-imgrea.ali
+
+U emergency%s		emergency.ads		afbf07f4 EE NE OO PK
+W measures%s		measures.ads		measures.ali
+
+D ada.ads		20150506105328 3ffc8e18 ada%s
+D a-except.ads		20150506105328 5250cb69 ada.exceptions%s
+D a-ioexce.ads		20150506105327 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20150506105329 119b8fb3 ada.streams%s
+D a-tags.ads		20150506105332 dc4d0634 ada.tags%s
+D a-textio.ads		20150506105332 386df5d4 ada.text_io%s
+D a-unccon.ads		20150506105331 f9eb8f06 ada.unchecked_conversion%s
+D emergency.ads		20160306221038 d1a70cc9 emergency%s
+D emergency.adb		20160306221038 159321c8 emergency%b
+D interfac.ads		20150506105327 6033a23f interfaces%s
+D i-cstrea.ads		20150506105327 e53d8b8e interfaces.c_streams%s
+D measures.ads		20160306221038 7e180b3d measures%s
+D system.ads		20150506105331 100301f7 system%s
+D s-crtl.ads		20150506105326 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150506105331 54135002 system.exception_table%s
+D s-ficobl.ads		20150506105333 078245e4 system.file_control_block%s
+D s-imgint.ads		20150506105328 02dbe0c2 system.img_int%s
+D s-imgrea.ads		20150506105326 c7a851e2 system.img_real%s
+D s-parame.ads		20150506105331 7e2a0d7f system.parameters%s
+D s-soflin.ads		20150506105328 aa763b52 system.soft_links%s
+D s-stache.ads		20150506105332 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150506105331 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150506105332 2dc34a04 system.storage_elements%s
+D s-traent.ads		20150506105327 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150506105330 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150506105330 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 9|2r6 10r7 11r7 12r7 13r7
+X 6 a-textio.ads
+49K13*Text_IO 471e16 9|2w10 10r11 11r11 12r11 13r11
+263U14*Put_Line 9|10s19 11s19 12s19 13s19
+X 8 emergency.ads
+5K9*Emergency 13l5 13e14 9|4b14 17l5 17t14
+10U14*ContactEmergency 10>31 11>31 12>31 9|6b14 16l8 16t24
+10i31 Wearer{12|6I9} 9|6b31 11r56
+11i31 Vitals{12|10I9} 9|7b31 12r53
+12r31 Location{12|19R9} 9|8b31 14r45 15r46
+X 12 measures.ads
+2K9*Measures 8|1w6 1r20 9|1w6 1r20 12|25e13
+6I9*UserID<integer> 8|10r43 9|6r43 11r43
+10I9*BPM<integer> 8|11r43 9|7r43 12r43
+17F9*Latitude<float> 9|14r30
+18F9*Longitude<float> 9|15r30
+19R9*GPSLocation 8|12r45 9|8r45 12|23e17
+21f10*Lat{17F9} 9|14r54
+22f10*Long{18F9} 9|15r55
+

@@ -1,0 +1,22 @@
+[MAPPING FILE]
+/private/var/folders/k1/brwpzxfx0lj7z7h46mnct7vr0000gp/T/GNAT-TEMP-000001.TMP
+[TOOLCHAIN VERSION]
+ada
+GNAT 2015
+[MAIN BASE NAME]
+fatbatexample
+[COMPILER PATH]
+/users/jiangxue/gnat/bin/gcc
+[COMPILER LEADING SWITCHES]
+-c
+-x
+ada
+-gnatA
+[MAIN DEPENDENCY FILE]
+/Users/jiangxue/docu/high integrity/assign1/fatbatexample.ali
+[DEPENDENCY FILES]
+[BINDING OPTIONS]
+gnatbind_prefix=
+[PROJECT FILES]
+/Users/jiangxue/docu/high integrity/assign1/default.gpr
+20160317003823

@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/Users/jiangxue/docu/high integrity/assign1/default.gpr
+20160317004108
+[BOUND OBJECT FILES]
+/Users/jiangxue/docu/high integrity/assign1/measures.o
+/Users/jiangxue/docu/high integrity/assign1/emergency.o
+/Users/jiangxue/docu/high integrity/assign1/accountmanagementsystem.o
+/Users/jiangxue/docu/high integrity/assign1/FatBatExample.o
+/Users/jiangxue/docu/high integrity/assign1/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/Users/jiangxue/docu/high integrity/assign1/
+-L/Users/jiangxue/docu/high integrity/assign1/
+-L/users/jiangxue/gnat/lib/gcc/x86_64-apple-darwin13.4.0/4.9.3/adalib/
+-static
+/users/jiangxue/gnat/lib/gcc/x86_64-apple-darwin13.4.0/4.9.3/adalib/libgnat.a

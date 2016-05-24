@@ -1,0 +1,101 @@
+V "GNAT Lib v2015"
+A -O2
+A -mmacosx-version-min=10.11.3
+A -gnatA
+A -g
+A -mtune=core2
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U fatbatexample%b	fatbatexample.adb	773383f5 NE OO PK
+W accountmanagementsystem%s  accountmanagementsystem.adb  accountmanagementsystem.ali
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W measures%s		measures.ads		measures.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+
+U fatbatexample%s	fatbatexample.ads	b3de2fd5 EE NE OO PK
+W accountmanagementsystem%s  accountmanagementsystem.adb  accountmanagementsystem.ali
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W measures%s		measures.ads		measures.ali
+
+D accountmanagementsystem.ads  20160306222028 d7170187 accountmanagementsystem%s
+D ada.ads		20150506105328 3ffc8e18 ada%s
+D a-except.ads		20150506105328 5250cb69 ada.exceptions%s
+D a-inteio.ads		20150506105332 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20150506105327 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20150506105329 119b8fb3 ada.streams%s
+D a-tags.ads		20150506105332 dc4d0634 ada.tags%s
+D a-textio.ads		20150506105332 386df5d4 ada.text_io%s
+D a-tiinio.ads		20150506105328 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20150506105331 f9eb8f06 ada.unchecked_conversion%s
+D fatbatexample.ads	20160317131001 d4f7591f fatbatexample%s
+D fatbatexample.adb	20160318105634 c4edac20 fatbatexample%b
+D interfac.ads		20150506105327 6033a23f interfaces%s
+D i-cstrea.ads		20150506105327 e53d8b8e interfaces.c_streams%s
+D measures.ads		20160306221038 7e180b3d measures%s
+D system.ads		20150506105331 100301f7 system%s
+D s-crtl.ads		20150506105326 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150506105331 54135002 system.exception_table%s
+D s-ficobl.ads		20150506105333 078245e4 system.file_control_block%s
+D s-imgint.ads		20150506105328 02dbe0c2 system.img_int%s
+D s-parame.ads		20150506105331 7e2a0d7f system.parameters%s
+D s-soflin.ads		20150506105328 aa763b52 system.soft_links%s
+D s-stache.ads		20150506105332 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150506105331 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150506105332 2dc34a04 system.storage_elements%s
+D s-traent.ads		20150506105327 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150506105330 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150506105330 1b7d22d2 system.wch_con%s
+X 1 accountmanagementsystem.ads
+3K9*AccountManagementSystem 40e28 11|5w6 12|5w6 20r7 22r17 23r17 24r17 25r17
+. 29r7 31r7 33r7 35r7 37r7 39r7 42r7 43r7 47r7 48r7 49r7 52r7 54r15
+6U14*Init 12|20s31
+8V13*CreateUser{15|6I9} 12|22s41 23s41 24s41 25s41
+10U14*SetInsurer 12|29s31 35s31
+14U14*SetFriend 12|31s31 33s31 37s31
+16U14*RemoveFriend 12|39s31
+18U14*UpdateVitalsPermissions 12|48s31 49s31
+22U14*UpdateFootstepsPermissions 12|47s31
+30U14*UpdateVitals 12|42s31
+31U14*UpdateFootsteps 12|43s31
+35V13*ReadFootsteps{15|14I9} 12|54s39
+38U14*ContactEmergency 12|52s31
+X 2 ada.ads
+16K9*Ada 19e8 11|1r6 1r23 2r6 2r31 12|1r6 1r23 2r6 2r31
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[9|46] 11|2w10 2r35 12|2w10 2r35
+X 8 a-textio.ads
+49K13*Text_IO 471e16 11|1w10 1r27 12|1w10 1r27
+242U14*Put 12|55s7
+X 11 fatbatexample.ads
+8K9*FatBatExample 10l5 10e18 12|8b14 58l5 58t18
+9U14*Run 12|9b14 57l8 57t11
+X 12 fatbatexample.adb
+10i7 user_1{15|6I9} 22m7 29r42 31r41 35r42 37r41 42r44 43r47 47r58 48r55
+. 49r55 52r48 54r61
+11i7 user_2{15|6I9} 23m7 29r50 33r41 39r44 48r62
+12i7 user_3{15|6I9} 24m7 31r49 33r49 47r65
+13i7 user_4{15|6I9} 25m7 35r50 37r49 54r53
+14i7 Vitals_1{15|10I9} 42r51 52r66
+15i7 Footsteps_1{15|14I9} 43r54
+16r7 Location_1{15|19R9} 52r55
+17i7 foot{15|14I9} 54m7 55r27
+X 15 measures.ads
+2K9*Measures 11|4w6 4r20 12|4w6 4r20 15|25e13
+6I9*UserID<integer> 12|10r16 11r16 12r16 13r16
+10I9*BPM<integer> 12|14r18
+14I9*Footsteps<integer> 12|15r21 17r14 55r11
+19R9*GPSLocation 12|16r20 15|23e17
+

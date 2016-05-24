@@ -1,0 +1,67 @@
+V "GNAT Lib v2015"
+M P W=b
+A -O2
+A -mmacosx-version-min=10.11.3
+A -gnatA
+A -g
+A -mtune=core2
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U main%b		main.adb		0e84f1c7 NE OO SU
+W accountmanagementsystem%s  accountmanagementsystem.adb  accountmanagementsystem.ali
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W fatbatexample%s	fatbatexample.adb	fatbatexample.ali
+W measures%s		measures.ads		measures.ali
+
+D accountmanagementsystem.ads  20160306222028 d7170187 accountmanagementsystem%s
+D ada.ads		20150506105328 3ffc8e18 ada%s
+D a-except.ads		20150506105328 5250cb69 ada.exceptions%s
+D a-inteio.ads		20150506105332 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20150506105327 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20150506105329 119b8fb3 ada.streams%s
+D a-tags.ads		20150506105332 dc4d0634 ada.tags%s
+D a-textio.ads		20150506105332 386df5d4 ada.text_io%s
+D a-tiinio.ads		20150506105328 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20150506105331 f9eb8f06 ada.unchecked_conversion%s
+D fatbatexample.ads	20160317131001 d4f7591f fatbatexample%s
+D interfac.ads		20150506105327 6033a23f interfaces%s
+D i-cstrea.ads		20150506105327 e53d8b8e interfaces.c_streams%s
+D main.adb		20160317130814 bd5ade12 main%b
+D measures.ads		20160306221038 7e180b3d measures%s
+D system.ads		20150506105331 100301f7 system%s
+D s-crtl.ads		20150506105326 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150506105331 54135002 system.exception_table%s
+D s-ficobl.ads		20150506105333 078245e4 system.file_control_block%s
+D s-parame.ads		20150506105331 7e2a0d7f system.parameters%s
+D s-soflin.ads		20150506105328 aa763b52 system.soft_links%s
+D s-stache.ads		20150506105332 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150506105331 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150506105332 2dc34a04 system.storage_elements%s
+D s-traent.ads		20150506105327 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150506105330 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150506105330 1b7d22d2 system.wch_con%s
+X 1 accountmanagementsystem.ads
+3K9*AccountManagementSystem 40e28 14|6w6
+X 2 ada.ads
+16K9*Ada 19e8 14|2r6 2r23 3r6 3r31
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[9|46] 14|3w10 3r35
+X 8 a-textio.ads
+49K13*Text_IO 471e16 14|2w10 2r27
+X 11 fatbatexample.ads
+8K9*FatBatExample 10e18 14|7w6 11r4
+9U14*Run 14|11s18
+X 14 main.adb
+9U11*Main 9b11 12l5 12t9
+X 15 measures.ads
+2K9*Measures 14|5w6 5r20 15|25e13
+

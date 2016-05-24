@@ -1,0 +1,170 @@
+V "GNAT Lib v2015"
+A -O2
+A -mmacosx-version-min=10.11.3
+A -gnatA
+A -g
+A -mtune=core2
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV NO_ENUMERATION_MAPS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U accountmanagementsystem%b  accountmanagementsystem.adb  c04e7aeb NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W emergency%s		emergency.adb		emergency.ali
+W measures%s		measures.ads		measures.ali
+W system.img_bool%s	s-imgboo.adb		s-imgboo.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.img_real%s	s-imgrea.adb		s-imgrea.ali
+
+U accountmanagementsystem%s  accountmanagementsystem.ads  a90f0aba EE NE OO PK
+W measures%s		measures.ads		measures.ali
+
+D accountmanagementsystem.ads  20160306222028 d7170187 accountmanagementsystem%s
+D accountmanagementsystem.adb  20160318101532 808b894c accountmanagementsystem%b
+D ada.ads		20150506105328 3ffc8e18 ada%s
+D a-except.ads		20150506105328 5250cb69 ada.exceptions%s
+D a-ioexce.ads		20150506105327 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20150506105329 119b8fb3 ada.streams%s
+D a-tags.ads		20150506105332 dc4d0634 ada.tags%s
+D a-textio.ads		20150506105332 386df5d4 ada.text_io%s
+D a-unccon.ads		20150506105331 f9eb8f06 ada.unchecked_conversion%s
+D emergency.ads		20160306221038 d1a70cc9 emergency%s
+D interfac.ads		20150506105327 6033a23f interfaces%s
+D i-cstrea.ads		20150506105327 e53d8b8e interfaces.c_streams%s
+D measures.ads		20160306221038 7e180b3d measures%s
+D system.ads		20150506105331 100301f7 system%s
+D s-crtl.ads		20150506105326 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150506105331 54135002 system.exception_table%s
+D s-ficobl.ads		20150506105333 078245e4 system.file_control_block%s
+D s-imgboo.ads		20150506105327 f5d971eb system.img_bool%s
+D s-imgint.ads		20150506105328 02dbe0c2 system.img_int%s
+D s-imgrea.ads		20150506105326 c7a851e2 system.img_real%s
+D s-parame.ads		20150506105331 7e2a0d7f system.parameters%s
+D s-soflin.ads		20150506105328 aa763b52 system.soft_links%s
+D s-stache.ads		20150506105332 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150506105331 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150506105332 2dc34a04 system.storage_elements%s
+D s-traent.ads		20150506105327 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150506105330 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150506105330 1b7d22d2 system.wch_con%s
+X 1 accountmanagementsystem.ads
+3K9*AccountManagementSystem 40l5 40e28 2|7b14 290l5 290t28
+6U14*Init 2|46b14 51l8 51t12
+8V13*CreateUser{13|6I9} 2|54b13 73l8 73t18
+10U14*SetInsurer 10>25 10>45 2|76b14 83l8 83t18
+10i25 Wearer{13|6I9} 2|76b25 78r24 79r24 81r41
+10i45 Insurer{13|6I9} 2|76b45 78r44
+11V13*ReadInsurer{13|6I9} 11>25 2|95b13 102l8 102t19
+11i25 Wearer{13|6I9} 2|95b25 97r24 99r41 101r32
+12U14*RemoveInsurer 12>28 2|86b14 92l8 92t21
+12i28 Wearer{13|6I9} 2|86b28 88r24 89r24
+14U14*SetFriend 14>24 14>44 2|105b14 112l8 112t17
+14i24 Wearer{13|6I9} 2|105b24 107r24 108r24 110r41
+14i44 NewFriend{13|6I9} 2|105b44 107r43
+15V13*ReadFriend{13|6I9} 15>24 2|115b13 122l8 122t18
+15i24 Wearer{13|6I9} 2|115b24 117r24 119r41 121r31
+16U14*RemoveFriend 16>27 2|125b14 131l8 131t20
+16i27 Wearer{13|6I9} 2|125b27 127r24 128r24
+18U14*UpdateVitalsPermissions 18>38 19>38 20>38 2|134b14 145l8 145t31
+18i38 Wearer{13|6I9} 2|134b38 138r25 139r24 143r48
+19i38 Other{13|6I9} 2|135b22 138r41 141r24 144r24
+20b38 Allow{boolean} 2|136b22 138r64
+22U14*UpdateFootstepsPermissions 22>41 23>41 24>41 2|148b14 159l8 159t34
+22i41 Wearer{13|6I9} 2|148b41 152r25 153r24 157r48
+23i41 Other{13|6I9} 2|149b21 152r41 155r24 158r26
+24b41 Allow{boolean} 2|150b21 152r67
+26U14*UpdateLocationPermissions 26>40 27>40 28>40 2|162b14 174l8 174t33
+26i40 Wearer{13|6I9} 2|162b40 166r25 168r24 172r48
+27i40 Other{13|6I9} 2|163b24 166r41 170r24 173r24
+28b40 Allow{boolean} 2|164b24 166r67
+30U14*UpdateVitals 30>27 30>47 2|177b14 183l8 183t20
+30i27 Wearer{13|6I9} 2|177b27 179r25 180r24 182r44
+30i47 NewVitals{13|10I9} 2|177b47 179r44
+31U14*UpdateFootsteps 31>30 31>50 2|186b14 192l8 192t23
+31i30 Wearer{13|6I9} 2|186b30 188r25 189r24 191r50
+31i50 NewFootsteps{13|14I9} 2|186b50 188r51
+32U14*UpdateLocation 32>29 32>49 2|195b14 204l8 204t22
+32i29 Wearer{13|6I9} 2|195b29 197r25 198r24 201r50 202r52
+32r49 NewLocation{13|19R9} 2|195b49 197r46
+34V13*ReadVitals{13|10I9} 34>24 34>47 2|207b13 225l8 225t18 276s25
+34i24 Requester{13|6I9} 2|207b24 212r28 214r24
+34i47 TargetUser{13|6I9} 2|207b47 211r28 216r24 217r38 219r34
+35V13*ReadFootsteps{13|14I9} 35>27 35>50 2|228b13 246l8 246t21
+35i27 Requester{13|6I9} 2|228b27 233r28 235r24
+35i50 TargetUser{13|6I9} 2|228b50 232r28 237r24 238r44 240r34
+36V13*ReadLocation{13|19R9} 36>26 36>49 2|249b13 268l8 268t20
+36i26 Requester{13|6I9} 2|249b26 254r28 256r24
+36i49 TargetUser{13|6I9} 2|249b49 253r28 258r24 260r49 261r52 263r34
+38U14*ContactEmergency 38>31 38>51 38>78 2|271b14 288l8 288t24
+38i31 Wearer{13|6I9} 2|271b31 276r39 282r27 283r27 284r37
+38r51 Location{13|19R9} 2|272b19 283r52 284r59
+38i78 Vitals{13|10I9} 2|273b31 282r50
+X 2 accountmanagementsystem.adb
+15R9 USER 25e17 37r48
+17i10*UserNO{13|6I9} 49m19 58m35 71r57
+18i10*UserFootsteps{13|14I9} 59m35 188m34 191r59 238r57 240r47
+19i10*Vitals{13|10I9} 62m35 179m34 182r53 217r51 219r47
+20r10*Location{13|19R9} 60m35 197m34 201r59 202r61 260r62 261r65 263r47
+21i10*EmerVitals{13|10I9} 63m35 282m36
+22r10*EmerLocation{13|19R9} 61m35 283m36
+23i10*Insurer{13|6I9} 64m35 78m33 81r50 88m33 99r50 101r41
+24i10*Friend{13|6I9} 65m35 107m33 110r50 119r50 121r40 127m33
+27R9 PERMISSION 34e17 39r66
+29i10*UserOwner{13|6I9}
+30i10*UserRelation{13|6I9}
+31b10*PermiLocation{boolean} 67m54 173r32 254r40
+32b10*PermiVitals{boolean} 68m54 138m49 144r32 212r40
+33b10*PermiFootsteps{boolean} 69m54 152m49 158r34 166m49 233r40
+37A9 UserList(15R9)<integer> 42r16
+39A9 PermissionList(27R9)<integer><integer> 43r16
+41i4 User_New{13|6I9} 50m7 56m7 56r19 58r24 58r45 59r24 60r24 61r24 62r24
+. 63r24 64r24 65r24 67r25 67r43 68r25 68r43 69r25 69r43 71r46 72r14
+42a4 UserInfo{37A9} 49m7 58m7 59m7 60m7 61m7 62m7 63m7 64m7 65m7 71r29 78m7
+. 81r24 88m7 99r24 101r15 107m7 110r24 119r24 121r14 127m7 179m7 182r26 188m7
+. 191r32 197m7 201r32 202r34 217r21 219r17 238r27 240r17 260r31 261r34 263r17
+. 282m10 283m10
+43a4 PermiInfo{39A9} 67m7 68m7 69m7 138m7 143r30 152m7 157r30 166m7 172r30
+. 211r10 232r10 253r10
+274i7 Vitals_Current{13|10I9} 276m7 281r10 284r44
+X 3 ada.ads
+16K9*Ada 2|4r6 5r5 3|19e8
+X 8 a-textio.ads
+49K13*Text_IO 2|4w10 5r9 8|471e16
+242U14*Put 2|70s7 79s7 80s7 81s7 89s7 90s7 97s7 98s7 99s7 108s7 109s7 110s7
+. 117s7 118s7 119s7 128s7 129s7 139s7 140s7 141s7 142s7 153s7 154s7 155s7
+. 156s7 168s7 169s7 170s7 171s7 180s7 181s7 189s7 190s7 198s7 199s7 214s7
+. 215s7 216s7 217s7 235s7 236s7 237s7 238s7 256s7 257s7 258s7 265s10
+263U14*Put_Line 2|71s7 82s7 91s7 100s7 111s7 120s7 130s7 143s7 157s7 172s7
+. 182s7 191s7 200s7 218s7 222s10 239s7 243s10 259s7 286s10
+X 10 emergency.ads
+5K9*Emergency 2|3w6 284r10 10|13e14
+10U14*ContactEmergency 2|284s20
+X 13 measures.ads
+2K9*Measures 1|1w6 1r20 2|2w6 2r20 13|25e13
+5i4*MAX_USERID{integer} 2|37r32 39r37 39r51
+6I9*UserID<integer> 1|8r31 10r37 10r58 11r37 11r52 12r40 14r36 14r59 15r36
+. 15r51 16r39 18r50 19r49 22r53 23r52 26r52 27r51 30r39 31r42 32r41 34r39
+. 34r63 35r42 35r66 36r41 36r65 38r43 2|17r27 23r27 24r27 29r27 30r27 41r16
+. 54r31 71r16 76r37 76r58 79r11 81r11 86r40 89r11 95r37 95r52 97r11 99r11
+. 105r36 105r59 108r11 110r11 115r36 115r51 117r11 119r11 125r39 128r11 134r50
+. 135r33 139r11 141r11 148r53 149r32 153r11 155r11 162r52 163r35 168r11 170r11
+. 177r39 180r11 186r42 189r11 195r41 198r11 207r39 207r63 214r11 216r11 228r42
+. 228r66 235r11 237r11 249r41 249r65 256r11 258r11 271r43
+10I9*BPM<integer> 1|30r62 34r78 38r90 2|19r27 21r27 177r62 182r16 208r22
+. 217r11 273r43 274r24
+14I9*Footsteps<integer> 1|31r68 35r81 2|18r27 186r68 191r16 229r21 238r11
+17F9*Latitude<float> 2|201r17 260r16
+18F9*Longitude<float> 2|202r18 261r18
+19R9*GPSLocation 1|32r66 36r80 38r65 2|20r27 22r27 195r66 250r20 272r33 13|23e17
+21f10*Lat{17F9} 2|201r68 260r71
+22f10*Long{18F9} 2|202r70 261r74
+
